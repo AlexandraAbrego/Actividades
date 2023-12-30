@@ -1,30 +1,39 @@
-/**
- * @license
- * Copyright (c) 2014, 2023, Oracle and/or its affiliates.
- * Licensed under The Universal Permissive License (UPL), Version 1.0
- * as shown at https://oss.oracle.com/licenses/upl/
- * @ignore
- */
-/*
- * Your about ViewModel code goes here
- */
-define(['../accUtils'],
- function(accUtils) {
-    function AboutViewModel() {
-      // Below are a set of the ViewModel methods invoked by the oj-module component.
-      // Please reference the oj-module jsDoc for additional information.
 
-      /**
-       * Optional ViewModel method invoked after the View is inserted into the
-       * document DOM.  The application can put logic that requires the DOM being
-       * attached here.
-       * This method might be called multiple times - after the View is created
-       * and inserted into the DOM and after the View is reconnected
-       * after being disconnected.
-       */
+define(['knockout',"ojs/ojformlayout"],
+ function(ko) {
+    function AboutViewModel() {
+     this.map=""
+     this.filter=""
+     this.foreach=""
+     this.find=""
+     this.sort=""
+     this.some=""
+     this.every=""
+     this.includes=""
+     this.concat=""
+     this.join=""
+     this.reduce=""
+     this.indexof=""
+     this.findindex=""
+     this.fill=""
+     this.push=""
+     this.pop=""
+     this.shift=""
+     this.unshift=""
+     this.slice=""
+     this.reverse=""
+     this.lastindexof=""
+     this.flat=""
+     this.isarray=""
+     this.from=""
+
+
+
+
+
+      
       this.connected = () => {
-        accUtils.announce('About page loaded.', 'assertive');
-        document.title = "About";
+        document.title = "Documentación";
         // Implement further logic if needed
       };
 
@@ -44,11 +53,7 @@ define(['../accUtils'],
       };
     }
 
-    /*
-     * Returns an instance of the ViewModel providing one instance of the ViewModel. If needed,
-     * return a constructor for the ViewModel so that the ViewModel is constructed
-     * each time the view is displayed.
-     */
+    
     return AboutViewModel;
   }
 );
