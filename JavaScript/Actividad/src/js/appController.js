@@ -25,10 +25,9 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojknocko
 
       let navData = [
         { path: '', redirect: 'dashboard' },
-        { path: 'dashboard', detail: { label: 'Arrays', iconClass: 'oj-ux-ico-brackets' } },
-        { path: 'incidents', detail: { label: 'Incidents', iconClass: 'oj-ux-ico-fire' } },
-        { path: 'customers', detail: { label: 'Customers', iconClass: 'oj-ux-ico-contact-group' } },
-        { path: 'about', detail: { label: 'About', iconClass: 'oj-ux-ico-information-s' } },
+        { path: 'dashboard', detail: { label: 'Actividad', iconClass: 'oj-ux-ico-brackets' } },
+      
+        { path: 'about', detail: { label: 'Documentación', iconClass: 'oj-ux-ico-book' } }
 
       ];
 
