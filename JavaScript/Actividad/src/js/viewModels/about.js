@@ -13,7 +13,9 @@ define(['knockout',"ojs/ojformlayout"],
     //Mostrar el primer elemento menor a 5
      this.find= this.ArrayOriginal.find(element=>element<5)
     //Reordenar los elementos del arreglo de forma ascendente
-     this.sort= this.ArrayOriginal.sort((a,b)=>a>b?1:-1)
+     array_b=[1,5,2,5,6,7,3,4,9,11,15,8] 
+     array_b.sort((a,b)=>a>b?1:-1)
+     this.sort= array_b
     //Mostrar si dentro del arreglo existe un valor menor que 0
      this.some=this.ArrayOriginal.some(element=>element<0)
     //Mostrar si todos los valores del arreglo son positivos
@@ -32,14 +34,32 @@ define(['knockout',"ojs/ojformlayout"],
     //Mostrar el índice del valor que sea mayor que 5 y menor que 8 en el arreglo
      this.findindex=this.ArrayOriginal.findIndex(element=>element>5 && element<8)
     //Rellenar de la posición 0 a 2 con el símbolo #
-     this.fill=this.ArrayOriginal.fill()
-     this.push=""
-     this.pop=""
-     this.shift=""
-     this.unshift=""
-     this.slice=""
-     this.reverse=""
-     this.lastindexof=""
+     array_b=[1,5,2,5,6,7,3,4,9,11,15,8] 
+     this.fill=array_b.fill("#",0,3)
+    //Añadir # al final del arreglo
+     array_b=[1,5,2,5,6,7,3,4,9,11,15,8] 
+     array_b.push("#")
+     this.push= array_b
+    //Eliminar el último elemento del Arreglo
+     array_b=[1,5,2,5,6,7,3,4,9,11,15,8] 
+     array_b.pop()
+     this.pop=array_b
+    //Elimina el primer elemento del arreglo
+     array_b=[1,5,2,5,6,7,3,4,9,11,15,8] 
+     array_b.shift()
+     this.shift=array_b
+     //Agregar # al inicio del arreglo
+     array_b=[1,5,2,5,6,7,3,4,9,11,15,8] 
+     array_b.unshift("#")
+     this.unshift=array_b
+    //Mostrar únicamente la posición 1-2 del arreglo
+     this.slice=this.ArrayOriginal.slice(1,3)
+    //Mostrar el arreglo a la inversa
+     array_b=[1,5,2,5,6,7,3,4,9,11,15,8] 
+     array_b.reverse()
+     this.reverse=array_b
+    //Mostrar el índice del último elemento que sea igual a 3
+     this.lastindexof=this.ArrayOriginal.lastIndexOf(3)
      this.flat=""
      this.isarray=""
      this.from=""
