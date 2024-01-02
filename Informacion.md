@@ -19,10 +19,10 @@ En caso de no estar familiarizad@ con el uso de GitHub o Git.
 - [Comandos principales de Git](https://www.hostinger.mx/tutoriales/comandos-de-git)
 - [Uso general de GitHub](https://docs.github.com/es/get-started)
 
-##Git y GitHub: Trabajo con Repositorios y Bifurcaciones
+## Git y GitHub: Trabajo con Repositorios y Bifurcaciones
 Para trabajar de manera más rápida y eficaz se utilizarán las bifurcaciones y Pull-Request para el envío de las actividades. Para ello se requiere la previa creación de una cuenta en GitHub, además, para la descarga y actualización de archivos se necesitará de la descarga de [Git](https://git-scm.com/)
 
-###Bifurcación y Pull-Request
+### Bifurcación y Pull-Request
 1. Estando en el repositorio original, seleccionar la opción de Fork
 ![](https://i.pinimg.com/originals/f0/10/47/f010473fbe34933391e786a12186e391.jpg)
 2. Una vez en la pantalla de creación de Fork, no es necesario hacer ninguna modificación al nombre del archivo, una vez aceptados los cambios y "Create Fork" un repositorio idéntico al original será creado en el perfil del usuario.
@@ -32,7 +32,7 @@ Para trabajar de manera más rápida y eficaz se utilizarán las bifurcaciones y
 4. En la pantalla del Request se agregará una breve descripción de los cambios establecidos, una vez finalizado se agregá el Request y la actividad queda enviada. 
 ![](https://i.pinimg.com/originals/e4/11/62/e4116260ec8b018ef13fd5a13680dd53.jpg)
 
-###Trabajo con GitHub y Git: Clonación y edición de repositorios
+### Trabajo con GitHub y Git: Clonación y edición de repositorios
 Git permite llevar un orden simple y eficaz al momento de trabajar con diversos archivos. Para poder comenzar, se necesitará tener Git instalado así como una cuenta en gitHub y en este caso un repositorio ya bifurcado en nuestro perfil.
 
 1. Abrir Git Bash e ingresar nombre y correo electrónico, esto permitirá llevar un registro de "quién" realiza cambios a cualquier archivo.
