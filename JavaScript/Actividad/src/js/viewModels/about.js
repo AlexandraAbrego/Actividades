@@ -8,9 +8,7 @@ define(['knockout',"ojs/ojformlayout"],
      this.map=this.ArrayOriginal.map(element=>element/2)
     //Mostrar los elementos del array mayores a 5
      this.filter=this.ArrayOriginal.filter(element=>element>5)
-    //Mostrar a modo de lista cada elemento del arreglo con su índice
-     this.foreach=this.ArrayOriginal.forEach((element,i)=>`elemento: ${element} índice: ${i}`  )
-    //Mostrar el primer elemento menor a 5
+     //Mostrar el primer elemento menor a 5
      this.find= this.ArrayOriginal.find(element=>element<5)
     //Reordenar los elementos del arreglo de forma ascendente
      array_b=[1,5,2,5,6,7,3,4,9,11,15,8] 
@@ -60,9 +58,13 @@ define(['knockout',"ojs/ojformlayout"],
      this.reverse=array_b
     //Mostrar el índice del último elemento que sea igual a 3
      this.lastindexof=this.ArrayOriginal.lastIndexOf(3)
-     this.flat=""
-     this.isarray=""
-     this.from=""
+     //Unificar el arreglo [1,2,3,4,[5,6]]
+     array_c = [1,2,3,4,[5,6]]
+     this.flat= array_c.flat()
+     //Mostrar si el arreglo original es un array
+     this.isarray= Array.isArray(this.ArrayOriginal)
+    //Convertir la cadena "abcdef" en un arreglo
+     this.from= Array.from("abcdef")
 
 
 

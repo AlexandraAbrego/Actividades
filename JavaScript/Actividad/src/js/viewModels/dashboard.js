@@ -2,8 +2,7 @@
 define(["knockout","ojs/ojinputtext","ojs/ojformlayout"],
  function(ko) {
     function DashboardViewModel() {
-      this.inputValue=ko.observable("hello world")
-      this.Array= [1,2,3,4,5,6,7,8,9,10]
+      this.Array= [13,12,5,2,6,4,76,34,78,5,7,3,9,1]
       this.map=""
       this.filter=""
       this.find_=""
