@@ -1,4 +1,3 @@
-
 # Información General
 
 ### Instalaciones Necesarias 
@@ -34,6 +33,14 @@ Para trabajar de manera más rápida y eficaz se utilizarán las bifurcaciones y
 ![](https://i.pinimg.com/originals/e4/11/62/e4116260ec8b018ef13fd5a13680dd53.jpg)
 
 ###Trabajo con GitHub y Git: Clonación y edición de repositorios
+Git permite llevar un orden simple y eficaz al momento de trabajar con diversos archivos. Para poder comenzar, se necesitará tener Git instalado así como una cuenta en gitHub y en este caso un repositorio ya bifurcado en nuestro perfil.
+
+1. Abrir Git Bash e ingresar nombre y correo electrónico, esto permitirá llevar un registro de "quién" realiza cambios a cualquier archivo.
+![](https://i.pinimg.com/originals/47/0d/f4/470df4669aa7414e0d66befed990e10c.jpg)
+2. Clonar el repositorio de GitHub en el entorno local. el link es simplemente el que aparece en el navegador estando abierto el repositorio. A partir de aquí, se puede trabajar con libertad dentro del archivo descargado. 
+![](https://i.pinimg.com/originals/d7/bf/e3/d7bfe368b8f962cf10da9a7dd24284b3.jpg)
+3. Verificando que la dirección de Git sea *dentro del repositorio*, al finalizar los ejercicios deben añadirse y documentarse los cambios hechos. El comando "Git Status" nos indicará qué archivos han sido modificados y no han sido "documentados". En la imagen se ejemplifica como hacer esta documentación. Una vez realizado este proceso, el comando "git push" sincroniza el archivo local con el repositorio en línea, una vez hecho esto es posible hacer el "Pull-Request".
+![](https://i.pinimg.com/originals/c1/a6/e4/c1a6e410e1a19c201c9b34621b98a685.jpg)
 
 
 **Contacto:**
