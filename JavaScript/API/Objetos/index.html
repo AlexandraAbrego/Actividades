@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Uso de APIS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	
+	<h1>API Trabajada con Objetos: Documentación</h1>
+	<p> Para el uso de este tipo de APIS,el usuario obtendrá en el sitio web un objeto, 
+		siendo éste usualmente parte de una librería (por ejemplo en el caso de GoogleMaps, 
+		la propia API nos otorga el objeto "map" y el objeto "marker" que se desplegan) en
+		la pantalla del sitio web después de haber brindado los datos geográficos de interés.
+		En algunos casos se requerirá un pago para acceder a cualquier tipo de servicio (tal es
+		el caso por ejemplo de Twitter), sin embargo algunas otras mientras se cumplan ciertos
+		rubros o ciertas características permanecen de manera gratuita.
+	</p>
+
+	<h2>Google Maps API:  </h2>
+	<P> Para el caso de Google maps, se requerirá tener una cuenta de Gmail así como
+		habilitar los servicios de GoogleCloud, primeramente se mantiene como un servicio
+		gratuito, permitiendo un número específico de vistas al mapa en una cantidad de tiempo.
+		En la documentación de los servicios de GoogleCloud se brinda la información completa
+		de estos servicios y su funcionamiento.
+	</P>
+	
+	<div id="map"></div>
+	<a href="https://cloud.google.com/apis?utm_source=google&utm_
+	   medium=cpc&utm_campaign=latam-MX-all-es-dr-SKWS-all-all-trial
+	   -b-dr-1707800-LUAC0020220&utm_content=text-ad-none-any-DEV_c-
+	   CRE_654757056686-ADGP_Hybrid%20%7C%20SKWS%20-%20BRO%20%7C%20T
+	   xt%20~%20API-Management_General-KWID_43700076081761133-kwd-232
+	   07200&utm_term=KW_api-ST_API&gad_source=1&gclid=CjwKCAiA44OtBhA
+       OEiwAj4gpOZjiz3fBEeu8tmOhlVIG5z0h4UJK0AUWyvn4c0EoCuYQrhyRGnEf0Ro
+	   CZAsQAvD_BwE&gclsrc=aw.ds&hl=es"> 
+	   <h3> Otras APIS realizadas por Google Cloud</h3></a>
+
+	   <h2>Ejemplos de otras API creadas bajo este formato:</h2>
+	   <div class="API_Ejemplos">
+	   <div class="Ejemplo"> 
+	   <a href="https://developers.google.com/youtube/v3?hl=es-419"> <img src="https://img.freepik.com/premium-vector/youtube-logo-circle-red-social-media-logo_197792-4982.jpg" width="150" height="150"> </a>
+	   <div class="Descripciones">
+	   <p> YouTube <br>Permite que un usuario coloque un video de YouTube, 
+		Playlists <br> o incluso el propio buscador de este sitio web.
+	   </p>
+
+	   </div>
+	   </div>
+	   <div class="Ejemplo"> 
+	   <a href="https://developer.twitter.com/en/docs/twitter-api"> <img src="https://cdn.freebiesupply.com/logos/large/2x/twitter-3-logo-png-transparent.png" width="130" height="130" >  </a>
+	   <p style="padding-left: 20px;"> Twitter <br>Muestra información como los últimos Twitts del usuario 
+		desplegados en la página web
+	   </p>
+	   </div>
+
+	   <div class="Ejemplo"> 
+		<a href="https://developers.pinterest.com/"> <img src="https://cdn-icons-png.flaticon.com/512/174/174863.png" width="130" height="130" >  </a>
+		<p style="padding-left: 20px;"> Pinterest <br> Integra el contenido de un perfil de Pinterest dentro del sitio web <br>
+		 
+		</p>
+		</div>
+
+		<div class="Ejemplo"> 
+			<a href="https://developers.facebook.com/docs/"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="130" height="130" >  </a>
+			<p style="padding-left: 20px;"> Facebook <br> Permite el inicio de sesión a un sitio web usando una cuenta del ecosistema de Meta <br>
+			 
+			</p>
+			</div>
+	   </div>
+
+<script src="script.js"></script>
+ <!-- El siguiente src mostrado es directamente el link para el uso de la API de Google Maps, la informaciòn después de "KEY" 
+es el código individual brindado después de registrarse en GoogleCloud, el callback será la función a ejecutarse una
+vez que se haya hecho la conexión con la API, es decir, en esa función es donde se tendrá acceso a todos los elementos
+de la API, tales como los mapas o los markers--> 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiqYvXJoh5PyFxnHW3WGQnEHlXGxZ-lvc&callback=iniciarMap"></script>
+</body>
+</html>
