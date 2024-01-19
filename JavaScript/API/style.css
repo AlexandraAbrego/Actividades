@@ -11,6 +11,7 @@
 	font-style: normal;
 	font-weight: 300;
   }
+
 #map {
 	height: 500px;
 	width: 100%;
@@ -49,4 +50,17 @@ img{
 
 img:hover{
 	opacity: 100%;
+}
+
+.usuario{
+  border-radius: 25px;
+  background: #c9cdf5;
+  padding: 20px;
+  width: 200px;
+  height: 180px;
+}
+.grid{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
