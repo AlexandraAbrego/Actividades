@@ -12,11 +12,14 @@ fetch("https://jsonplaceholder.typicode.com/users")
 //Cambio a JSON
 .then(response=>response.json())
 .then(data=>{
-   
+    for(var i=0; i<5;i++){
+       var  name="n_"+i
+    
 
-    if(document.getElementById("ejemplo0") != null){
-            objetivo=document.getElementById("ejemplo0").innerHTML=data[0].name
-            console.log(data[0])
+    if(document.getElementById(name) != null){
+            objetivo=document.getElementById(name).innerHTML=data[i].name
+            console.log(data[i].name)
+    }
     }
 })
 
