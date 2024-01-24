@@ -55,12 +55,30 @@ img:hover{
 .usuario{
   border-radius: 25px;
   background: #c9cdf5;
-  padding: 20px;
+  padding: 30px;
   width: 200px;
-  height: 180px;
+  height: 180;
 }
 .grid{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+.map_actividad{
+	border-radius: 25px;
+	background: #e0e2f8;
+	padding: 30px;
+	width: 	100%;
+	height: 500px;
+	margin-top: 50px;
+	align-self: center;
+  }
+
+.photos{
+	border-radius: 25px;
+	background: #c9cdf5;
+	padding: 30px;
+	width: 200px;
+	height: 180px
 }
