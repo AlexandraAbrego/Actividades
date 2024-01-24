@@ -1,9 +1,0 @@
-{
-    "name": "unsafe",
-    "version": "1.0.0",
-    "jetVersion": "^15.0.0",
-    "type": "resource",
-    "displayName": "Input group",
-    "description": "Layout component for grouping inputs.",
-    "pack": "oj-c"
-  }

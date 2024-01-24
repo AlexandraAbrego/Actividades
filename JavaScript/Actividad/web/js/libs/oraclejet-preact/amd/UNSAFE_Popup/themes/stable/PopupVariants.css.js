@@ -1,2 +1,0 @@
-define(['exports', 'css!./../../../PopupStyles.styles.css', '../../../vanilla-extract-recipes-createRuntimeFn.esm-a956c8b7'], (function(e,a,t){"use strict";var s=t.createRuntimeFn({defaultClassName:"PopupStyles_baseStyle__1xjjaoy0",variantClassNames:{},defaultVariants:{},compoundVariants:[]});e.multiVariantStyles=s,Object.defineProperty(e,"__esModule",{value:!0})}));
-//# sourceMappingURL=PopupVariants.css.js.map
